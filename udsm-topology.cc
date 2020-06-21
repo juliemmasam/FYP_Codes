@@ -111,9 +111,7 @@ int main (int argc, char *argv[]){
   // Create an address helper
   Ipv4AddressHelper address;
 
-  // Configuring the subnets
-  // Create a node container to hold the nodes that belong to subnet 1 and add
-  // worstation 1 and router 1
+  // Create the node containers for the subnets
   NodeContainer subnet1;
   NodeContainer subnet2, subnet3, subnet4;
   NodeContainer subnet5, subnet6, subnet7;
