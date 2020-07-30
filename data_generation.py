@@ -20,7 +20,7 @@ def data_fn():
     packets = []
 
     i = 0
-    while (time.time() - start) < 300:
+    while (time.time() - start) < 900:
         start_time.append(datetime.now())
         packets.append(np.random.randint(19000, 25000))
         transmission_time = 0.001*np.random.randint(250, 400)
